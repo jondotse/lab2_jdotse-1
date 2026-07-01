@@ -10,3 +10,8 @@ from player import Player
 
 def main():
     print("\n--- Coin Match Game ---")
+
+    player1 = Player("Player 1")
+    player2 = Player("Player 2")
+
+    
