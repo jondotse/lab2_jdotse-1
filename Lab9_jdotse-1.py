@@ -54,7 +54,7 @@ def main():
 
         choice = input("\nDo you want to toss the coins? (y/n): ").lower()
 
-
+    # Printing final score
     print("\n--- Final Score ---")
     print(f"{player1.get_name()}: {player1.get_wallet()}")
     print(f"{player2.get_name()}: {player2.get_wallet()}")
